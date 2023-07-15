@@ -1,6 +1,6 @@
 function threeSum(arr, target) {
 // write your code here
-	arr.sort();
+	arr.sort((a,b) => a-b);
 
 	let i, j , sum = Infinity;
 
